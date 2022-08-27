@@ -55,10 +55,21 @@ body {
 .cajaImagen {
     height: 15rem;
 }
+
 .cajaImagen img {
     width: 100%;
     height: 100%;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
+
+.cajaImagen:hover img {
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
 .card {
     height: 23rem;
     margin-bottom: 1rem;
@@ -66,12 +77,28 @@ body {
 
 }
 
+.cajaVideo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.video {
+    width: 28rem;
+    height: 20rem;
+}
+
+.video video {
+    width: 100%;
+    height: 100%;
+}
+
     /* BEBIDAS */
 
 .bebidas {
+    width: 85%;
     height: 29rem;
     margin-top: 1rem;
-    margin-left: 6rem;
     background-color: rgba(245, 223, 223, 0.9);
 }
 
@@ -82,57 +109,61 @@ body {
 
     /*NOSOTROS*/
 
+.ubicacion {
+    width: 100%;
+}
+
+.ubicacion iframe {
+    width: 100%;
+}
 
 
     /*RESERVAS*/
 
-    .cuerpoReservas {
-        display: grid;
-        grid-template-areas:
-        "header"
-        "main"
-        "footer";
-        grid-template-columns: 100%;
-        grid-template-rows: 3.5rem auto 2rem;
-     }
-     
-    
-    .principalReservas {
-        margin-top: 1rem;
-        grid-area: main;
-    }
-    
-     .principalReservas h1 {
-         text-align: center;
-         margin: 1rem 0;
-     }
-     
-     .formulario {
-         display: flex;
-         flex-direction: column;
-         width: 27vw;
-         border: 2px solid rgb(27, 27, 27);
-         padding: 8px;
-         margin-bottom: 1em;
-         background-color: rgba(212, 212, 204, 0.9);
-         box-shadow:#000000 3px 3px 5px;
-     }
-     
-     .formulario label {
-         color: #000000;
-         font-family: GothamRnd-MedIta;
-         font-size: 20px;
-     }
+.cuerpoReservas {
+    display: grid;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 3.5rem auto 2rem;
+}
+ 
+.principalReservas {
+    margin-top: 1rem;
+    grid-area: main;
+}
 
-     .contenedor {
-        display: flex;
-        justify-content: center;
-     }
-     
-     .textoPie {
-         color: #000000;
-         font-family: GothamRnd-MedIta;
-         font-size: 20px;
-     }
-    
+.principalReservas h1 {
+     text-align: center;
+     margin: 1rem 0;
+}
+ 
+.formulario {
+     display: flex;
+     flex-direction: column;
+     width: 33rem;
+     border: 2px solid rgb(27, 27, 27);
+     padding: 8px;
+     margin-bottom: 1em;
+     background-color: rgba(212, 212, 204, 0.9);
+     box-shadow:#000000 3px 3px 5px;
+}
+ 
+.formulario label {
+     color: #000000;
+     font-family: GothamRnd-MedIta;
+     font-size: 20px;
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+ 
+.textoPie {
+     color: #000000;
+     font-family: GothamRnd-MedIta;
+     font-size: 20px;
+}
 
