@@ -28,6 +28,10 @@ body {
     color: rgb(223, 223, 223,);
 }
 
+.nav-item a:hover {
+    color:  rgb(223, 223, 223) !important;
+}
+
 .text-center {
     font-family: GothamRnd-MedIta;
     font-size: 1.3em;
