@@ -1,0 +1,107 @@
+
+    // INDEX
+.text-center {
+    font-family: $fuentePrincipal;
+    font-size: 1.3em;
+}
+
+    // MENU
+.titulos {
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.card {
+    height: 23rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+    .cajaImagen {
+        height: 15rem;
+        img {
+            width: 100%;
+            height: 100%;
+            -webkit-transform: scale(1);
+	        transform: scale(1);
+	        -webkit-transition: .3s ease-in-out;
+	        transition: .3s ease-in-out;
+        }
+        &:hover {
+            img {
+                -webkit-transform: scale(1.3);
+	            transform: scale(1.3);
+            }
+        }
+    }
+}
+
+.cajaVideo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    .video {
+        width: 28rem;
+        height: 20rem;
+        video {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+    // BEBIDAS
+.bebidas {
+    width: 85%;
+    height: 29rem;
+    margin-top: 1rem;
+    background-color: rgba(245, 223, 223, 0.9);
+    .card-title {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
+
+    // NOSOTROS
+
+.ubicacion {
+    width: 100%;
+    iframe {
+        width: 100%;
+    }
+}
+
+    // RESERVAS
+
+.principalReservas {
+    margin-top: 1rem;
+    grid-area: main;
+    h1 {
+        text-align: center;
+        margin: 1rem 0;
+    }
+    .contenedor {
+        display: flex;
+        justify-content: center;
+        .formulario {
+            display: flex;
+            flex-direction: column;
+            width: 33rem;
+            border: 2px solid rgb(27, 27, 27);
+            padding: 8px;
+            margin-bottom: 1em;
+            background-color: rgba(212, 212, 204, 0.9);
+            box-shadow:#000000 3px 3px 5px;
+            label {
+                color: #000000;
+                font-family: GothamRnd-MedIta;
+                font-size: 20px;
+            }
+       }
+    }
+    .textoPie {
+        color: #000000;
+        font-family: GothamRnd-MedIta;
+        font-size: 20px;
+   }
+}
+

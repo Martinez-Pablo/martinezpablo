@@ -1,0 +1,16 @@
+
+body {
+    background-color: $body-color;
+    font-family: $fuentePrincipal;
+}
+
+    // RESERVAS
+.cuerpoReservas {
+    display: grid;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 3.5rem auto 2rem;
+} 
