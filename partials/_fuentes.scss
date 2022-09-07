@@ -1,6 +1,14 @@
 
+@font-face {
+    font-family: SuperMario256;
+    src: url("../fonts/SuperMario256.ttf");
+}
+
+@font-face {
+    font-family: GothamRnd-Medlta;
+    src: url("../fonts/GothamRnd-MedIta.otf");
+}
 $fuenteTitulo: SuperMario256;
-$direccionFT: url("../fonts/SuperMario256.ttf");
 
 $fuentePrincipal: GothamRnd-Medlta;
-$direccionFP: url("../fonts/GothamRnd-MedIta.otf");
+

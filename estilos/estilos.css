@@ -1,3 +1,11 @@
+@font-face {
+  font-family: SuperMario256;
+  src: url("../fonts/SuperMario256.ttf");
+}
+@font-face {
+  font-family: GothamRnd-Medlta;
+  src: url("../fonts/GothamRnd-MedIta.otf");
+}
 body {
   background-color: rgba(161, 161, 161, 0.377);
   font-family: GothamRnd-Medlta;
@@ -24,7 +32,7 @@ body {
 }
 .navbar-nav .nav-link {
   font-family: GothamRnd-Medlta;
-  font-size: 1.8em;
+  font-size: 1.5em;
   color: rgb(223, 223, 223);
 }
 .navbar-nav .nav-link:hover {
@@ -33,13 +41,14 @@ body {
 
 .text-center {
   font-family: GothamRnd-Medlta;
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 .titulos {
   text-align: center;
   margin-bottom: 1rem;
   margin-top: 1rem;
+  font-size: 1.5em;
 }
 
 .card {
