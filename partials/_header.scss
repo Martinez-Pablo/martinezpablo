@@ -3,7 +3,7 @@
     font-family: $fuenteTitulo;
     font-size: 2.3em;
     text-shadow: 1px 1px 2px;
-    color: rgb(223, 223, 223);
+    color: map-get($styles, navColor);
 }
 
 .navbar-nav {
@@ -12,10 +12,10 @@
     margin-left: 5em;
     .nav-link {
         font-family: $fuentePrincipal;
-        font-size: 1.5em;
-        color: rgb(223, 223, 223,);
+        font-size: map-get($styles, sizeTitles);
+        color: map-get($styles, navColor);
         &:hover {
-            color:  rgb(223, 223, 223);
+            color: map-get($styles, navColor);
         }
     }
 }
