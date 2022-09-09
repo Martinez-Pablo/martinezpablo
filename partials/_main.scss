@@ -1,5 +1,13 @@
 
     // INDEX
+
+.logo {
+    img:hover {
+        -webkit-transform: rotateY(360deg);
+        transition: 2s ease-in-out;
+    }
+}
+
 .text-center {
     font-family: $fuentePrincipal;
     font-size: 1.2em;
@@ -14,11 +22,13 @@
 }
 
 .card {
+    width: 18rem;
     height: 23rem;
     margin-bottom: map-get($styles, marginBasic);
     margin-left: 3rem;
     .cajaImagen {
         height: 15rem;
+        background-color: rgba(249, 232, 47, 0.219);
         img {
             @extend %maxWH;
             -webkit-transform: scale(1);
@@ -59,6 +69,9 @@
 }
 
     // NOSOTROS
+.descripcion {
+    margin-top: map-get($styles, marginBasic);
+}
 
 .ubicacion {
     width: 100%;
