@@ -64,8 +64,8 @@ body {
 .card {
   width: 18rem;
   height: 23rem;
+  margin: 0 auto;
   margin-bottom: 1rem;
-  margin-left: 3rem;
 }
 .card .cajaImagen {
   height: 15rem;
@@ -88,7 +88,7 @@ body {
   height: 20rem;
 }
 .bebidas {
-  width: 85%;
+  width: 30rem;
   height: 29rem;
   margin-top: 1rem;
   background-color: rgba(245, 223, 223, 0.9);
