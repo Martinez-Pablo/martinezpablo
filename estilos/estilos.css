@@ -66,10 +66,11 @@ body {
   height: 23rem;
   margin: 0 auto;
   margin-bottom: 1rem;
+  background-color: rgba(248, 176, 61, 0.9);
 }
 .card .cajaImagen {
   height: 15rem;
-  background-color: rgba(249, 232, 47, 0.219);
+  background-color: rgba(255, 255, 255, 0.932);
 }
 .card .cajaImagen img {
   transform: scale(1);
@@ -91,7 +92,10 @@ body {
   width: 30rem;
   height: 29rem;
   margin-top: 1rem;
-  background-color: rgba(245, 223, 223, 0.9);
+  background-color: rgba(248, 176, 61, 0.7);
+}
+.bebidas:hover {
+  box-shadow: #3b2c13 5px 5px 5px;
 }
 .bebidas .card-title {
   text-align: center;
@@ -146,7 +150,7 @@ body {
   background-color: rgba(186, 33, 46, 0.966);
 }
 
-.card .cajaImagen img, .cajaVideo .video video {
+.card .cajaImagen img, .cajaVideo .video iframe {
   width: 100%;
   height: 100%;
 }/*# sourceMappingURL=estilos.css.map */

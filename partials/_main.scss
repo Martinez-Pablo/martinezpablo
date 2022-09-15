@@ -26,9 +26,10 @@
     height: 23rem;
     margin: 0 auto;
     margin-bottom: map-get($styles, marginBasic);
+    background-color: rgba(248, 176, 61, 0.900);
     .cajaImagen {
         height: 15rem;
-        background-color: rgba(249, 232, 47, 0.219);
+        background-color: rgba(255, 255, 255, 0.932);
         img {
             @extend %maxWH;
             -webkit-transform: scale(1);
@@ -50,7 +51,7 @@
     .video {
         width: 28rem;
         height: 20rem;
-        video {
+        iframe {
             @extend %maxWH;
         }
     }
@@ -61,7 +62,10 @@
     width: 30rem;
     height: 29rem;
     margin-top: map-get($styles, marginBasic);
-    background-color: rgba(245, 223, 223, 0.9);
+    background-color: rgba(248, 176, 61, 0.700);
+    &:hover {
+        box-shadow: #3b2c13 5px 5px 5px
+    }
     .card-title {
         text-align: map-get($styles, textAling);
         margin-bottom: map-get($styles, marginBasic);
